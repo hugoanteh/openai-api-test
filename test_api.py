@@ -15,7 +15,7 @@ def call_openai(question):
         messages=[
             {
                 "role": "user",
-                "content": f"Respond like a interviewer to the following question: {question}",
+                "content": f"Menciona que quieres empezar una entrevista a profundidad como parte de una investigación de mercado y pregunta si quisiera empezar: {question}",
             }
         ]
     )
