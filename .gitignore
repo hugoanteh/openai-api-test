@@ -1,0 +1,9 @@
+# Ignorar el archivo con claves privadas
+.env
+
+# Archivos temporales o de entorno
+__pycache__/
+*.pyc
+
+# Configuración local de VSCode
+.vscode/
