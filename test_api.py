@@ -120,7 +120,7 @@ async def on_message(message):
     # Iniciar o continuar entrevista
     if message.content.startswith("$start"):
         user_sessions[user_id] = {"index": 0, "history": []}
-        await message.channel.send("Quiero decirte que todo está bien. Gracias por participar. Empecemos:")
+        await message.channel.send("Hola. Gracias por participar. Empecemos:")
         await message.channel.send(GUIDE[0])
 
     # Capturar respuestas del usuario
